@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0px 0px;
     font-family: 'Open Sans', sans-serif;
     ;
 }
@@ -9,32 +9,28 @@
     background-image: url('../images/Background-image/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
+    margin: 50px 200px;
 
-}
-
-.text-primary {
-    color: salmon;
 }
 
 .btn-primary {
     text-decoration: none;
-    height: 34px;
+    height: 50px;
     border-radius: 5px;
     background-color: salmon;
     color: aliceblue;
     font-weight: 700;
     font-size: 20px;
-    line-height: 5px;
+    line-height: 3px;
     border: 0;
-    padding: 10px 35px 10px 36px;
-
+    padding: 25px 25px 25px 26px;
 }
 
 /* header and navigation styles */
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 50px 200px;
+    margin: 50px 50px;
 }
 
 nav li {
@@ -45,16 +41,57 @@ nav li {
 
 nav ul {
     display: flex;
+    justify-content: space-between;
 }
 
 .nav-title {
     font-weight: 800;
     font-size: 45px;
 }
+.icon{
+    width: 100px;
+    height: 80px;    
+}
+
+.second-part{
+    text-align: center;
+    margin: 50px 100px 100px 130px;
+}
+
+.second-container{
+    display: flex;
+    gap: 40px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+}
+
+.second-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: floralwhite;
+    
+    
+}
+
+.second{
+    background: rgb(156, 132, 123);
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+    
+}
 
 /* banner styles */
 .banner {
-    margin: 100px 786px 184px 229px;
+    margin: 10px 100px 10px 10px;
     display: flex;
     align-items: center;
 
@@ -94,123 +131,41 @@ section{
     margin-top: 130px;
 }
 
-/* about section style */
-.about-me {
-    text-align: center;
-    background: blanchedalmond;
-    border-radius: 10px;
-    padding: 130px 150px;
-}
-
-.section-title {
-    text-align: center;
-    font-weight: 700;
-    font-size: 35px;
-    margin-bottom: 30px;
-}
-
-.section-description {
-    color: #757575;
-    font-size: 18px;
-    margin-bottom: 30px;
-
-}
-.about-info-container{
+/* activity & info styles */
+.third{
     display: flex;
-    justify-content:space-around;
-}
-.about-me .info-title{
-    font-size: 20px;
-    color: #757575;
-}
-.info-description{
+ }
+.activity-info-content{
+    display: flex;
+    gap: 34px;
     font-weight: 700;
     font-size: 20px;
-    color: #474747;
 }
-/* what i do styles */
-.what-i-do{
-    text-align: center;
-    
-    
-}
-.section-title1{
-    margin-bottom: 100px;
-    font-size: 30px;
-
-}
-.skill-container{
-    display: flex;
-    gap: 24px;
-
-
-}
-.skill-title{
-    text-align: center;
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    
-    
-}
-.skill-description{
-    color: #757575;
-}
-.skill{
-    background: #FFFFFF;
-    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
-    border-radius: 5px;
-}
-
-/* resume styles */
- 
-.resume-content{
-    display: flex;
-    gap: 24px;
-}
-.resume .title{
-    font-weight: 700;
+.third .title{
+    font-weight: 500;
     font-size: 25px;
     color: #474747;
     margin-bottom: 10px;
 }
-.resume .sub-title{
+.third .sub-title{
     color: #757575;
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 20px;
 }
-.resume .description{
+
+.third .description{
     color: #757575;
 }
-.resume-item{
+.activity-info-item{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.resume-button{
-    margin-top: 50px;
+.footer{
+    padding: 30px 55px 30px 0px;
     text-align: center;
+    
 }
-/* contact style */
-.contact .section-title{
-    text-align: left;
-}
-.contact{
-    display: flex;
-    gap: 100px;
-    background: #FFF8F3;
-    padding: 130px 200px;
-}
-.contact input[type="text"], input[type="email"], textarea{
-    margin-bottom: 24px;
-    border: 0;
-    width: 100%;
-    padding: 18px 30px;
-}
-input{
-    height: 64px;
-}
-.contact a{
-    text-decoration: none;
+.text-primary {
+    color: salmon;
 }
